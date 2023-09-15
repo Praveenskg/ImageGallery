@@ -1,0 +1,33 @@
+.photo-gallery {
+  text-align: center;
+}
+
+.photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-item {
+  margin: 16px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pagination {
+  margin-top: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 0 8px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+
+/* Add specific styles for PhotoGallery component here */

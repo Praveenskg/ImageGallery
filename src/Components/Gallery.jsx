@@ -40,6 +40,7 @@ function Gallery() {
   return (
     <div className="photo-gallery">
       <h2>Photo Gallery</h2>
+
       <div className="photo-list">
         <LightGallery
           speed={500}
